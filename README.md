@@ -1,4 +1,6 @@
 # MerijnDH p5.js!
 
-All my sketches:
+This is a repository for p5 sketches that I decide are worth putting on here.
+
+Sketches:
   - [Example1](01_Example/)
