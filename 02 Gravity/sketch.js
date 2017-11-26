@@ -29,6 +29,8 @@ function draw() {
 }
 
 function mousePressed() {
-    let newPlanet = new planet(mouseX, mouseY);
-    planets.push(newPlanet);
+    if (mouseX > 0 || mouseY > 0) {
+        let newPlanet = new planet(mouseX, mouseY);
+        planets.push(newPlanet);
+    }
 }
