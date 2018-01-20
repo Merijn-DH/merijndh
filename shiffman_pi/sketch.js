@@ -7,10 +7,10 @@ let blobs = [];
 
 function preload() {
   for (let i = 0; i < 10; i++) {
-    videos.push(createVideo("videos/" + i + ".webm"));
+    videos.push(createVideo(["videos/" + i + ".webm", "videos/" + i + ".mov"]));
     videos[i].hide();
   }
-  videos.push(createVideo("videos/p.webm"));
+  videos.push(createVideo(["videos/p.webm", "videos/p.mov"]));
   videos[10].hide();
 }
 
